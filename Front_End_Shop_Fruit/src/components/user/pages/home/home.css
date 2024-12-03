@@ -1,0 +1,43 @@
+.hero__item {
+    position: relative;
+    width: 1050px;
+    height: 500px;
+    margin-right: 200px;
+    /* height: 400px; Điều chỉnh chiều cao của section */
+}
+
+.hero__item img {
+    width: 1050px;
+    height: 500px;
+    /* height: 100%; */
+    object-fit: cover; /* Đảm bảo ảnh phủ đầy */
+}
+
+.hero__text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white; /* Màu chữ sáng để nổi bật trên ảnh */
+    z-index: 1; /* Đảm bảo text hiển thị trên ảnh */
+    padding: 20px;
+    border-radius: 10px; /* Bo góc */
+}
+
+.hero__text h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero__text p {
+    font-size: 18px;
+}
+
+.primary-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #ff6347; /* Màu của nút */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
